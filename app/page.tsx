@@ -1,6 +1,6 @@
 // ملف page.tsx
 import Navbar from "@/components/Navbar";
-import { Page } from "@/app/home/page";
+import Page from "@/app/home/page";
 
 export default function Home() {
   return (
