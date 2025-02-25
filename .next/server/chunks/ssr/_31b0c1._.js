@@ -219,7 +219,7 @@ const Home = ()=>{
                 className: "object-cover z-0"
             }, void 0, false, {
                 fileName: "[project]/components/Hero.tsx",
-                lineNumber: 14,
+                lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -236,12 +236,12 @@ const Home = ()=>{
                             className: "object-cover block sm:hidden"
                         }, void 0, false, {
                             fileName: "[project]/components/Hero.tsx",
-                            lineNumber: 24,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Hero.tsx",
-                        lineNumber: 23,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -255,12 +255,31 @@ const Home = ()=>{
                             className: "object-cover block sm:hidden"
                         }, void 0, false, {
                             fileName: "[project]/components/Hero.tsx",
-                            lineNumber: 36,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Hero.tsx",
-                        lineNumber: 35,
+                        lineNumber: 36,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute top-20 right-0 z-10",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                            src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$home_page_3$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$home_page_3$2e$svg__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
+                            alt: "backgroundbotton",
+                            layout: "intrinsic",
+                            width: 10000,
+                            height: 100,
+                            className: "object-cover block sm:hidden"
+                        }, void 0, false, {
+                            fileName: "[project]/components/Hero.tsx",
+                            lineNumber: 49,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/Hero.tsx",
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -277,12 +296,12 @@ const Home = ()=>{
                                     className: "object-contain"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Hero.tsx",
-                                    lineNumber: 48,
+                                    lineNumber: 61,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Hero.tsx",
-                                lineNumber: 47,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -297,7 +316,7 @@ const Home = ()=>{
                                             className: "   font-asmaa p-2 lg:p-3 placeholder-gray-600 text-black    bg-white border border-gray-700 rounded-tl-xl rounded-bl-xl    focus:outline-none sm:text-lg"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.tsx",
-                                            lineNumber: 59,
+                                            lineNumber: 72,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -306,29 +325,29 @@ const Home = ()=>{
                                                 className: "text-white text-xl"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 69,
+                                                lineNumber: 82,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 81,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Hero.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 71,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Hero.tsx",
-                                lineNumber: 57,
+                                lineNumber: 70,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Hero.tsx",
-                        lineNumber: 46,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -342,7 +361,7 @@ const Home = ()=>{
                                         children: "إيابا ميديا - حيث يتحول الإبداع إلى واقع؟"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Hero.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 91,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -356,14 +375,14 @@ const Home = ()=>{
                                                         children: "✏️"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 84,
+                                                        lineNumber: 97,
                                                         columnNumber: 17
                                                     }, this),
                                                     " تصميم جرافيك احترافي"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 83,
+                                                lineNumber: 96,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -374,14 +393,14 @@ const Home = ()=>{
                                                         children: "📸"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 87,
+                                                        lineNumber: 100,
                                                         columnNumber: 17
                                                     }, this),
                                                     " تصوير فوتوغرافي وفيديو بجودة عالية"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 86,
+                                                lineNumber: 99,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -392,14 +411,14 @@ const Home = ()=>{
                                                         children: "🎥"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 91,
+                                                        lineNumber: 104,
                                                         columnNumber: 17
                                                     }, this),
                                                     " مونتاج وتحرير فيديو احترافي"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 90,
+                                                lineNumber: 103,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -410,20 +429,20 @@ const Home = ()=>{
                                                         children: "📲"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Hero.tsx",
-                                                        lineNumber: 95,
+                                                        lineNumber: 108,
                                                         columnNumber: 17
                                                     }, this),
                                                     " إدارة وتسويق عبر السوشيال ميديا"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Hero.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 107,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Hero.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 95,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -431,13 +450,13 @@ const Home = ()=>{
                                         children: "أراء وتقيمات عملائنا"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Hero.tsx",
-                                        lineNumber: 100,
+                                        lineNumber: 113,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Hero.tsx",
-                                lineNumber: 77,
+                                lineNumber: 90,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -451,18 +470,18 @@ const Home = ()=>{
                                     className: "object-contain mt-4"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Hero.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 120,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Hero.tsx",
-                                lineNumber: 106,
+                                lineNumber: 119,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Hero.tsx",
-                        lineNumber: 76,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -476,24 +495,24 @@ const Home = ()=>{
                             className: "object-cover block sm:hidden"
                         }, void 0, false, {
                             fileName: "[project]/components/Hero.tsx",
-                            lineNumber: 120,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Hero.tsx",
-                        lineNumber: 119,
+                        lineNumber: 132,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Hero.tsx",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Hero.tsx",
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 5
     }, this);
 };

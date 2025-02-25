@@ -18,123 +18,59 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navi
 const Navbar = ()=>{
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["usePathname"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-        className: "bg-gray-900 py-4",
+        className: "bg-[#1e1e1d] pt-4",
         dir: "rtl",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex justify-center space-x-2 rtl:space-x-reverse",
+                className: "flex flex-wrap justify-end space-x-4",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: `relative block px-6 py-2 font-bold text-white transition-all duration-300 text-right
-    ${pathname === "/" ? "bg-blue-600 text-white clip-path-trapezoid" : "bg-white text-black rounded-tl-xl rounded-tr-xl hover:bg-blue-500 hover:text-white"} clip-path-custom`,
-                            children: "الرئيسية"
-                        }, void 0, false, {
-                            fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 15,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 14,
-                        columnNumber: 11
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         href: "/services",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: `relative block px-6 py-2 font-bold text-black bg-white  rounded-tl-xl rounded-tr-xl transition-all duration-300 text-right
-              ${pathname === "/services" ? "bg-blue-600 text-white" : "hover:bg-blue-500 hover:text-white"}`,
+                            className: `ml-4 relative block px-5 py-2 font-bold text-black bg-white rounded-tl-3xl rounded-tr-3xl transition-all duration-300 text-right
+              ${pathname === "/services" ? "bg-[#13a0cb] text-white" : "hover:bg-[#13a0cb] hover:text-white"}`,
                             children: "خدماتنا"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 29,
+                            lineNumber: 14,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 28,
+                        lineNumber: 13,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         href: "/projects",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: `relative block px-6 py-2 font-bold text-black bg-white rounded-tl-xl rounded-tr-xl transition-all duration-300 text-right
-              ${pathname === "/projects" ? "bg-blue-600 text-white" : "hover:bg-blue-500 hover:text-white"}`,
+                            className: `relative block px-5 py-2 font-bold text-black bg-white rounded-tl-3xl rounded-tr-3xl transition-all duration-300 text-right
+              ${pathname === "/projects" ? "bg-[#13a0cb] text-white" : "hover:bg-[#13a0cb] hover:text-white"}`,
                             children: "أعمالنا"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 42,
+                            lineNumber: 27,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 41,
+                        lineNumber: 26,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         href: "/blogs",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: `relative block px-6 py-2 font-bold text-black bg-white rounded-tl-xl rounded-tr-xl transition-all duration-300 text-right
-              ${pathname === "/blogs" ? "bg-blue-600 text-white" : "hover:bg-blue-500 hover:text-white"}`,
+                            className: `relative block px-5 py-2 font-bold text-black bg-white rounded-tl-3xl rounded-tr-3xl transition-all duration-300 text-right
+              ${pathname === "/blogs" ? "bg-[#13a0cb] text-white" : "hover:bg-[#13a0cb] hover:text-white"}`,
                             children: "مدونات"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 55,
+                            lineNumber: 40,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 54,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/about",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: `relative block px-6 py-2 font-bold text-black bg-white rounded-tl-xl rounded-tr-xl transition-all duration-300 text-right
-              ${pathname === "/about" ? "bg-blue-600 text-white" : "hover:bg-blue-500 hover:text-white"}`,
-                            children: "من نحن"
-                        }, void 0, false, {
-                            fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 68,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 67,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/policy",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: `relative block px-6 py-2 font-bold text-black bg-white rounded-tl-xl rounded-tr-xl transition-all duration-300 text-right
-              ${pathname === "/policy" ? "bg-blue-600 text-white" : "hover:bg-blue-500 hover:text-white"}`,
-                            children: "سياستنا"
-                        }, void 0, false, {
-                            fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 81,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 80,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/contact",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: `relative block px-6 py-2 font-bold text-black bg-white rounded-tl-xl rounded-tr-xl transition-all duration-300 text-right
-              ${pathname === "/contact" ? "bg-blue-600 text-white" : "hover:bg-blue-500 hover:text-white"}`,
-                            children: "للتواصل"
-                        }, void 0, false, {
-                            fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 94,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 93,
+                        lineNumber: 39,
                         columnNumber: 11
                     }, this)
                 ]
