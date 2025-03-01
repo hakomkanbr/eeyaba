@@ -21,19 +21,23 @@ const Navbar = ()=>{
         className: "bg-[#1e1e1d] pt-4",
         dir: "rtl",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-7xl mx-auto px-4",
+            className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-wrap justify-end space-x-4",
+                className: "flex flex-nowrap  justify-between  sm:justify-start items-center overflow-x-auto mx-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         href: "/services",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: `ml-4 relative block px-5 py-2
-                 font-bold text-black bg-white 
+                            className: `relative block px-4 py-2
+                 font-bold text-white bg-[#13a0cb]
                  rounded-tl-3xl rounded-tr-3xl transition-all duration-300 
                  text-right
-              ${pathname === "/services" ? "bg-[#13a0cb] text-white" : "hover:bg-[#13a0cb] hover:text-white"}`,
-                            children: "خدماتنا"
+              ${pathname === "/services" ? "bg-[#13a0cb] text-white" : "hover:bg-white hover:text-black"}`,
+                            style: {
+                                marginRight: "2px",
+                                marginLeft: "2px"
+                            },
+                            children: "بيت"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
                             lineNumber: 14,
@@ -45,11 +49,18 @@ const Navbar = ()=>{
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/projects",
+                        href: "/services",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: `relative block px-5 py-2 font-bold text-black bg-white rounded-tl-3xl rounded-tr-3xl transition-all duration-300 text-right
-              ${pathname === "/projects" ? "bg-[#13a0cb] text-white" : "hover:bg-[#13a0cb] hover:text-white"}`,
-                            children: "أعمالنا"
+                            className: `relative block px-4 py-2
+                 font-bold text-black bg-white 
+                 rounded-tl-3xl rounded-tr-3xl transition-all duration-300 
+                 text-right
+              ${pathname === "/services" ? "bg-[#13a0cb] text-white" : "hover:bg-[#13a0cb] hover:text-white"}`,
+                            style: {
+                                marginRight: "2px",
+                                marginLeft: "2px"
+                            },
+                            children: "خدماتنا"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
                             lineNumber: 30,
@@ -61,19 +72,43 @@ const Navbar = ()=>{
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/blogs",
+                        href: "/projects",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: `relative block px-5 py-2 font-bold text-black bg-white rounded-tl-3xl rounded-tr-3xl transition-all duration-300 text-right
-              ${pathname === "/blogs" ? "bg-[#13a0cb] text-white" : "hover:bg-[#13a0cb] hover:text-white"}`,
-                            children: "مدونات"
+                            className: `relative block px-4 py-2 font-bold text-black bg-white rounded-tl-3xl rounded-tr-3xl transition-all duration-300 text-right
+              ${pathname === "/projects" ? "bg-[#13a0cb] text-white" : "hover:bg-[#13a0cb] hover:text-white"}`,
+                            style: {
+                                marginRight: "2px",
+                                marginLeft: "2px"
+                            },
+                            children: "أعمالنا"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 43,
+                            lineNumber: 46,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 42,
+                        lineNumber: 45,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/blogs",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: `relative block px-4 py-2 font-bold text-black bg-white rounded-tl-3xl rounded-tr-3xl transition-all duration-300 text-right
+              ${pathname === "/blogs" ? "bg-[#13a0cb] text-white" : "hover:bg-[#13a0cb] hover:text-white"}`,
+                            style: {
+                                marginRight: "2px",
+                                marginLeft: "2px"
+                            },
+                            children: "مدونات"
+                        }, void 0, false, {
+                            fileName: "[project]/components/Navbar.tsx",
+                            lineNumber: 59,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.tsx",
+                        lineNumber: 58,
                         columnNumber: 11
                     }, this)
                 ]

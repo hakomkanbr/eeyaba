@@ -1,9 +1,9 @@
 import React from "react";
-import Hero from  "@/components/Hero"
+import Firstpage from  "@/components/Firstpage"
 const Page = () => {
   return (
     <div className="min-h-screen">
-      <Hero/>
+      <Firstpage/>
     </div>
   );
 };
