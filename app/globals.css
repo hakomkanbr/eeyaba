@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+body{
+    background-color: #1e1e1d;
+}
+
+
 @layer utilities {
     .font-asmaa {
         font-family: "AsmaaFont", sans-serif;
