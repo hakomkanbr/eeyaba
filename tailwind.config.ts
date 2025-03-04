@@ -9,7 +9,9 @@ export default {
   theme: {
     extend: {
       screens: {
-        sm: "470px",
+        "mobile-sm": "320px",
+        "mobile-md": "375",
+        "mobile-lg": "425px",
       },
     },
   },
