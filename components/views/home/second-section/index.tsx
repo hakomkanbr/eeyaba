@@ -61,14 +61,14 @@ const SecoudSection = () => {
           نصنع لك الفرق من الفكرة الى التنفسذ
         </span>
         <button
-          className="w-[180px] m-auto bg-[#13a0cb] text-white text-lg
-          font-asmaa px-4 py-2 
-          rounded-3xl shadow-lg 
-          transform transition duration-300 ease-in-out
-          hover:scale-105 hover:bg-[#0e85a1]"
-        >
-          أراء وتقيمات عملائنا
-        </button>
+            className="w-[180px] m-auto bg-[#13a0cb] text-white text-sm
+            font-asmaa px-4 py-2 
+            rounded-3xl shadow-lg 
+            transform transition duration-300 ease-in-out
+            hover:scale-105 hover:bg-[#0e85a1]"
+            >
+            أراء وتقيمات عملائنا
+          </button>
       </div>
     </div>
   );

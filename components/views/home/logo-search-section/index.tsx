@@ -14,7 +14,7 @@ const LogoSearchSection = () => {
       </div>
       <div className="p-1 absolute top-0 flex flex-row justify-between gap-10">
         <div className="w-2/5 flex items-center">
-          <button className="bg-[#13a0cb] text-white px-[0.6rem] py-[0.6rem] rounded-tr-lg rounded-br-lg sm:px-3 sm:py-3">
+          {/* <button className="bg-[#13a0cb] text-white px-[0.6rem] py-[0.6rem] rounded-tr-lg rounded-br-lg sm:px-3 sm:py-3">
             <FaSearch className="text-white text-sm" />
           </button>
           <input
@@ -23,7 +23,7 @@ const LogoSearchSection = () => {
             className="font-asmaa w-[120px] p-2  text-black 
           bg-white border border-gray-700 rounded-tl-lg rounded-bl-lg
           focus:outline-none text-xs"
-          />
+          /> */}
         </div>
         <div className="w-3/5">
           <Image

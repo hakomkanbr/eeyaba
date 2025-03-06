@@ -6,8 +6,8 @@ const NavbarLink: React.FC<{ href: string, text: React.ReactNode , className?: s
     return (
         <Link href={`/${href}`}>
             <span
-                className={twMerge(`relative block text-xs px-3 py-[0.4rem]
-         font-bold text-[#333] bg-[#fff]
+                className={twMerge(`relative block text-sm px-[0.6rem] py-[0.4rem]
+         font-bold text-[#fff]
          rounded-tl-2xl rounded-tr-2xl transition-all duration-300 hover:bg-white hover:text-black` , className)}
                 style={{ marginRight: "1px", marginLeft: "1px" }}
             >
