@@ -19,7 +19,7 @@ const ParallaxScroll = () => {
   const y4 = useTransform(scrollYProgress, [0, 1], [100, 0]);  // الطبقة الرابعة تتحرك
 
   return (
-    <div style={{ position: 'relative' }}> {/* زيادة الطول لتمكين التمرير */}
+    <div style={{ position: 'relative' ,height : "400vh" }}> {/* زيادة الطول لتمكين التمرير */}
       {/* الطبقة 1 */}
       <motion.div
         style={{ ...styles.layer, y: y1, zIndex: 1 }}  // دمج الأنماط هنا
