@@ -13,10 +13,10 @@ const ParallaxScroll = () => {
   const { scrollYProgress } = useScroll();
 
   // استخدام useTransform لتحويل بيانات التمرير إلى تأثير حركة
-  const y1 = useTransform(scrollYProgress, [0, 1], [0, 300]);  // الطبقة الأولى تتحرك
-  const y2 = useTransform(scrollYProgress, [0, 1], [300, 0]);  // الطبقة الثانية تتحرك فوق الأولى
-  const y3 = useTransform(scrollYProgress, [0, 1], [0, 300]);  // الطبقة الثالثة تتحرك
-  const y4 = useTransform(scrollYProgress, [0, 1], [300, 0]);  // الطبقة الرابعة تتحرك
+  const y1 = useTransform(scrollYProgress, [0, 1], [0, 100]);  // الطبقة الأولى تتحرك
+  const y2 = useTransform(scrollYProgress, [0, 1], [100, 0]);  // الطبقة الثانية تتحرك فوق الأولى
+  const y3 = useTransform(scrollYProgress, [0, 1], [0, 100]);  // الطبقة الثالثة تتحرك
+  const y4 = useTransform(scrollYProgress, [0, 1], [100, 0]);  // الطبقة الرابعة تتحرك
 
   return (
     <div style={{ position: 'relative' }}> {/* زيادة الطول لتمكين التمرير */}
