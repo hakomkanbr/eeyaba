@@ -9,14 +9,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="pt-2">
       <div className="mx-auto sm:px-6 lg:px-8 relative">
-        <div className="w-full absolute -top-4 h-[50px]">
-          <Image
-            src="/images/tttt2.png"
-            alt="backgroundbotton"
-            fill
-          />
-        </div>
-        <div className="flex relative -top-1">
+        <div className="flex relative -top-1 items-center">
           <NavbarLink href="/" text={<LuHouse size={16} />} />
           <NavbarLink href="/services" text="خدماتنا" />
           <NavbarLink href="/projects" text="أعمالنا" />

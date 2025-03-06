@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SecoudSection = () => {
   return (
-    <div className="mx-2">
+    <div className="m-2">
       <div className="flex flex-row items-center justify-start px-4">
         <div className="flex-1 flex flex-col items-start justify-center pt-5">
           <h1 className="text-xl md:text-4xl font-bold font-asmaa mb-2 text-[#f7c518]">

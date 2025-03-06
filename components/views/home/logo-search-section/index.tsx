@@ -4,36 +4,22 @@ import { FaSearch } from "react-icons/fa";
 
 const LogoSearchSection = () => {
   return (
-    <section className="relative">
-      <div className="w-full relative -top-1 h-[90px]">
+    <section >
+      <div className="w-full absolute -z-10 -top-1 h-[120px]">
         <Image
-          src="/images/tttt.png"
+          src="/images/hero-bg.png"
           alt="backgroundbotton"
           fill
         />
       </div>
-      <div className="p-1 absolute top-0 flex flex-row justify-between gap-10">
-        <div className="w-2/5 flex items-center">
-          {/* <button className="bg-[#13a0cb] text-white px-[0.6rem] py-[0.6rem] rounded-tr-lg rounded-br-lg sm:px-3 sm:py-3">
-            <FaSearch className="text-white text-sm" />
-          </button>
-          <input
-            type="text"
-            placeholder="البحث السريع.."
-            className="font-asmaa w-[120px] p-2  text-black 
-          bg-white border border-gray-700 rounded-tl-lg rounded-bl-lg
-          focus:outline-none text-xs"
-          /> */}
-        </div>
-        <div className="w-3/5">
+      <div className="flex justify-end items-end pl-4 h-full gap-10">
           <Image
             src="/images/home_page_4.svg"
             alt="left image"
-            width={500}
-            height={300}
+            width={150}
+            height={50}
             className="object-contain"
           />
-        </div>
       </div>
     </section>
   );

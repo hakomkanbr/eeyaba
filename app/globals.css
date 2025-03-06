@@ -31,3 +31,15 @@ body{
     }
 
 }
+
+
+.print-before-item::before{
+    content: "";
+    background-image: url(/images/print-item.png);
+    background-repeat: no-repeat;
+    z-index: 1000;
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+}
