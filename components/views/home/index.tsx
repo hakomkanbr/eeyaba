@@ -13,13 +13,13 @@ const ParallaxScroll = () => {
   const { scrollYProgress } = useScroll();
 
   // استخدام useTransform لتحويل بيانات التمرير إلى تأثير حركة
-  const y1 = useTransform(scrollYProgress, [0, 1], [0, 100]);  // الطبقة الأولى تتحرك
-  const y2 = useTransform(scrollYProgress, [0, 1], [0, 200]);  // الطبقة الثانية تتحرك فوق الأولى
+  const y1 = useTransform(scrollYProgress, [0, 1], [0, 300]);  // الطبقة الأولى تتحرك
+  const y2 = useTransform(scrollYProgress, [0, 1], [300, 0]);  // الطبقة الثانية تتحرك فوق الأولى
   const y3 = useTransform(scrollYProgress, [0, 1], [0, 300]);  // الطبقة الثالثة تتحرك
-  const y4 = useTransform(scrollYProgress, [0, 1], [0, 400]);  // الطبقة الرابعة تتحرك
+  const y4 = useTransform(scrollYProgress, [0, 1], [300, 0]);  // الطبقة الرابعة تتحرك
 
   return (
-    <div style={{ position: 'relative', height: '400vh' }}> {/* زيادة الطول لتمكين التمرير */}
+    <div style={{ position: 'relative' }}> {/* زيادة الطول لتمكين التمرير */}
       {/* الطبقة 1 */}
       <motion.div
         style={{ ...styles.layer, y: y1, zIndex: 1 }}  // دمج الأنماط هنا
@@ -64,7 +64,7 @@ const styles = {
   layer: {
     position: 'absolute',  // نستخدم absolute لجعل الطبقات تظهر فوق بعضها
     width: '100%',
-    height: '80vh',  // كل طبقة تأخذ نفس الارتفاع
+    height: '100vh',  // كل طبقة تأخذ نفس الارتفاع
     backgroundColor: '#ff6f61',
   } as MotionStyle,
   innerLayer1: {
