@@ -67,12 +67,8 @@ const styles = {
     height: '100vh',  // كل طبقة تأخذ نفس الارتفاع
   } as MotionStyle,
   innerLayer1: {
-    padding: '20px',
-    color: '#fff',
   },
   innerLayer2: {
-    padding: '20px',
-    color: '#fff',
   },
 };
 
