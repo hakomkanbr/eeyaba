@@ -65,7 +65,6 @@ const styles = {
     position: 'absolute',  // نستخدم absolute لجعل الطبقات تظهر فوق بعضها
     width: '100%',
     height: '100vh',  // كل طبقة تأخذ نفس الارتفاع
-    backgroundColor: '#ff6f61',
   } as MotionStyle,
   innerLayer1: {
     padding: '20px',
