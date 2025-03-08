@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 
 import Sections from "./sections";
@@ -10,5 +11,4 @@ const ParallaxScroll = () => {
     </div>
   );
 };
-
 export default ParallaxScroll;

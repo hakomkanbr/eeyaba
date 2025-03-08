@@ -61,6 +61,7 @@ const PrintSection = () => {
       </section>
     </div>
   );
+
 };
 
 export default PrintSection;
