@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/vaad4/OneDrive/Desktop/newfoldereeeb/eeyaba/components/views/home/index.tsx"],"sourcesContent":["\"use client\";\r\nimport React from \"react\";\r\n\r\nimport Sections from \"./Sections\";\r\nconst ParallaxScroll = () => {\r\n  return (\r\n    <div style={{ position: \"relative\", height: \"400vh\" }}>\r\n    <Sections/>\r\n    </div>\r\n  );\r\n};\r\n\r\n\r\nexport default ParallaxScroll;\r\n"],"names":[],"mappings":";;;;;;;;;AAAA;;;AAIA,MAAM,iBAAiB;IACrB,qBACE,8OAAC;QAAI,OAAO;YAAE,UAAU;YAAY,QAAQ;QAAQ;kBACpD,cAAA,8OAAC;;;;;;;;;;AAGL;uCAGe"}},
+    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

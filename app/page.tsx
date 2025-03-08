@@ -1,13 +1,7 @@
-import Navbar from "@/components/Navbar";
-import Page from "@/app/home/page";
+import HomeView from "@/components/views/home";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="min-h-screen bg-[#1e1e1d] text-white">
-      <Navbar />
-      <main>
-        <Page />
-      </main>
-    </div>
+    <HomeView/>
   );
 }

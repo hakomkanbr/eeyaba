@@ -9,7 +9,15 @@ export default {
   theme: {
     extend: {
       screens: {
-        sm: "470px",
+        "mobile-sm": "320px",
+        "mobile-md": "375px",
+        "mobile-lg": "425px",
+      },
+
+      colors: {
+        charcoal: { 500: "#1e1e1d" },
+        light: { 500: "#fff" },
+        yellowGold: { 500: "#f7c518" },
       },
     },
   },
