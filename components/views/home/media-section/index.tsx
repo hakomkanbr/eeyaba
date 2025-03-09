@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MediaSection = () => {
   return (
-    <section className="mt-4 relative">
+    <section className="mt-4 relative ">
       <div className="block sm:hidden">
         <Image
           src="/images/home_page_5.svg"

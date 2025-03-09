@@ -2,21 +2,19 @@ import Image from "next/image";
 
 const PrintSection = () => {
   return (
-    <div className="mt-0 relative">
+    <div className="mt-0 relative ">
       <div className="absolute inset-0 block sm:hidden  z-10   ">
         <Image
           src="/images/home_page_left_c.svg"
           alt="background"
-          className="absolute top-[65px]  left-0"
+          className="absolute top-[50px]  left-0"
           width={55}
           height={10}
         />
         <Image
           src="/images/home_page_right-c.svg"
           alt="background"
-          className="absolute
-           mobile-sm:top-[35px] mobile-sm:right-[-70px] mobile-md:top-[33px]
-           mobile-md:right-[-60px] mobile-lg:top-[16px] -right-8"
+          className="absolute top-[9px] -right-8"
           width={210}
           height={300}
         />
@@ -61,7 +59,6 @@ const PrintSection = () => {
       </section>
     </div>
   );
-
 };
 
 export default PrintSection;

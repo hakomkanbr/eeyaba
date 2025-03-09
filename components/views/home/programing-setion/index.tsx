@@ -2,14 +2,32 @@ import Image from "next/image";
 
 const ProgramingSection = () => {
   return (
-    <section className="mt-4 relative "> 
+    <section className="mt-4 relative min-h-screen flex justify-center items-center  ">
       <div className=" inset-0 block sm:hidden z-20">
         <Image
           src="/images/programing--item.png"
           alt="background"
-          className="absolute top-[-76px]"
+          className="absolute top-[-89px]"
           width={400}
           height={400}
+        />
+      </div>
+
+      <div className=" inset-0 block sm:hidden z-20">
+        <Image
+          src="/images/new/Asset_5.png"
+          alt="background"
+          className="absolute top-[300px] left-12"
+          width={350}
+          height={300}
+        />
+
+        <Image
+          src="/images/newpage/Asset_3.png"
+          alt="background"
+          className="absolute top-[-175px] left-0 "
+          width={450}
+          height={300}
         />
       </div>
 
@@ -50,7 +68,9 @@ const ProgramingSection = () => {
             width={450}
             height={300}
           />
-          <div className="relative pt-32"> {/*  قللنا ارتفاع padding-top ليظهر النص بشكل أفضل */}
+          <div className="relative pt-32">
+            {" "}
+            {/*  قللنا ارتفاع padding-top ليظهر النص بشكل أفضل */}
             <div className="flex flex-col items-center mt-4 z-10 relative">
               <span className="text-yellowGold-500 font-bold text-5xl mb-4 w-full text-center ">
                 طور
@@ -62,7 +82,6 @@ const ProgramingSection = () => {
                 معنا
               </span>
             </div>
-
             <button
               className="mt-8 w-[180px] border-white border-spacing-3 border-4 m-auto bg-yellowGold-500 text-sm
     font-asmaa px-4 py-1 
@@ -74,16 +93,6 @@ const ProgramingSection = () => {
             </button>
           </div>
         </div>
-      </div>
-
-      <div className=" inset-0 block sm:hidden z-20">
-        <Image
-          src="/images/new/Asset_5.png"
-          alt="background"
-          className="absolute top-[300px] left-12"
-          width={350}
-          height={300}
-        />
       </div>
     </section>
   );
