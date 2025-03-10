@@ -5,13 +5,12 @@ import {
   FaLinkedinIn,
   FaWhatsapp,
 } from "react-icons/fa";
-import { FaCheckCircle } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="text-white ">
-      <section className="relative bg-[url(/images/newpage/Asset_11.png)] bg-no-repeat bg-cover h-[100vh] flex flex-col justify-center">
-        <div className="px-4 container mx-auto text-center pt-36">
+      <section className="relative bg-[url('/images/newpage/Asset_7.png')] bg-no-repeat bg-cover flex flex-col justify-center items-center">
+        <div className="px-4 container mx-auto text-center pt-20">
           {/* الأقسام الرئيسية */}
           <div className="grid grid-cols-4 gap-6 text-left mb-6">
             <div>

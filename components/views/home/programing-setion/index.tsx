@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ProgramingSection = () => {
   return (
-    <section className="mt-4 relative  flex justify-center items-center  ">
+    <section className="mt-16 relative  flex justify-center items-center  ">
       <div className=" inset-0 block sm:hidden z-20">
         <Image
           src="/images/programing--item.png"

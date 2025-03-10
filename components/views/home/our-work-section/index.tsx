@@ -12,8 +12,9 @@ import icon9 from "@/public/images/our-work/Asset_9.svg";
 import icon10 from "@/public/images/our-work/Asset_10.svg";
 import icon11 from "@/public/images/our-work/Asset_11.svg";
 import icon12 from "@/public/images/our-work/Asset_12.svg";
+import { twMerge } from "tailwind-merge";
 
-var colors = ["#fff","#13a0cb","#f7c518"];
+const colors = ["#fff","#13a0cb","#f7c518"];
 
 const OurWorkSection = () => {
   return (
@@ -49,20 +50,22 @@ const OurWorkSection = () => {
               { Icon: icon7, label: "أعمال ادارة اليوتيوب"},
               { Icon: icon8, label: "أعمال سوشيال ميديا"},
             ].map(({ Icon, label }, index) => {
-              var t = index % 2 == 0;
-              var color0 = t ? colors[1] : colors[0];
-              var color1 = t ? colors[0] : colors[1];
-              var yallow = t ? colors[0] : colors[2];
-              var top = t ? "relative -top-2" : "";
+              const t = index % 2 == 0;
+              const color0 = t ? colors[1] : colors[0];
+              const color1 = t ? colors[0] : colors[1];
+              const yallow = t ? colors[0] : colors[2];
+              const top = t ? "relative -top-2" : "";
               console.info("color0 => " , color0);
               return (
                 <div key={index} className={`flex flex-col justify-center items-center text-white ${top}`}>
-                  <div className={`bg-[${color0}] flex items-center justify-center w-[55px] h-[55px] rounded-full`}>
+                  <div style={{
+                    backgroundColor : color0
+                  }} className={twMerge(`flex items-center justify-center w-[55px] h-[55px] rounded-full`)}>
                     <Image src={Icon} width={25} height={25} alt={label} className="text-white" />
                   </div>
                   <p className="text-center">
                     <span className={`text-xs font-bold text-[${yallow}]`}>{label.substring(0,label.lastIndexOf(" "))}</span>
-                    <span className={`block bg-[${color0}] mt-1 text-xs text-[${color1}] p-1 rounded`}>
+                    <span style={{color:color1,backgroundColor:color0}} className={`block mt-1 text-xs  p-1 rounded`}>
                       {label.split(" ").slice(-1)} 
                     </span>
                   </p>
