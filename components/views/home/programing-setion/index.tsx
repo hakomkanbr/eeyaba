@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ProgramingSection = () => {
   return (
-    <section className="mt-4 relative min-h-screen flex justify-center items-center  ">
+    <section className="mt-4 relative  flex justify-center items-center  ">
       <div className=" inset-0 block sm:hidden z-20">
         <Image
           src="/images/programing--item.png"
@@ -59,38 +59,6 @@ const ProgramingSection = () => {
               height={180}
               className="object-contain"
             />
-          </div>
-          {/* تعديل قسم الصاروخ */}
-          <Image
-            src="/images/new/rocket.png"
-            alt="rocket background"
-            className="absolute top-[300px] left-1/2 transform -translate-x-1/2"
-            width={450}
-            height={300}
-          />
-          <div className="relative pt-32">
-            {" "}
-            {/*  قللنا ارتفاع padding-top ليظهر النص بشكل أفضل */}
-            <div className="flex flex-col items-center mt-4 z-10 relative">
-              <span className="text-yellowGold-500 font-bold text-5xl mb-4 w-full text-center ">
-                طور
-              </span>
-              <span className="text-white font-bold text-5xl mb-4 w-full text-center ">
-                عملك
-              </span>
-              <span className="text-yellowGold-500 font-bold text-5xl mb-4 w-full text-center ">
-                معنا
-              </span>
-            </div>
-            <button
-              className="mt-8 w-[180px] border-white border-spacing-3 border-4 m-auto bg-yellowGold-500 text-sm
-    font-asmaa px-4 py-1 
-    rounded-3xl shadow-lg 
-    transform transition duration-300 ease-in-out
-    hover:scale-105 hover:bg-[#0e85a1]"
-            >
-              أراء وتقيم عملائنا
-            </button>
           </div>
         </div>
       </div>
