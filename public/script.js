@@ -23,7 +23,7 @@ function scrollToLayer(index) {
   isScrolling = true;
   const offset = layers[index].offsetTop - fixedLayer.offsetHeight; // احتساب المسافة مع العنصر الثابت
   window.scrollTo({ top: offset, behavior: "smooth" });
-
+  window.localStorage.setItem("index" , currentIndex);
   setTimeout(() => {
     currentIndex = index;
     isScrolling = false;

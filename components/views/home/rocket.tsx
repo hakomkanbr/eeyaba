@@ -1,32 +1,34 @@
 "use client";
-import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useInView } from "react-intersection-observer";
 
 export default function RocketAnimation() {
-  const [scrollY, setScrollY] = useState(0);
+    const { ref, inView } = useInView({
+        triggerOnce: true,  // للتشغيل مرة واحدة عند دخول الطبقة
+        threshold: 0.5,     // تحديد نسبة الطبقة التي يجب أن تكون في العرض لكي يتم تشغيل الأنيميشن
+      });
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+    return (<>
+        <motion.div
+            // initial={{ opacity: 0, y: 400 }}
+            // animate={{ opacity: 1, y: 0 }}
+            // transition={{ duration: 1 }}
+            style={{
+                width: "100%",
+                height: 648
+            }}
 
-  return (
-    <div className="relative bg-gradient-to-b from-blue-300 to-white">
-      {/* الصاروخ */}
-      <motion.div
-        // className="fixed bottom-0 left-1/2 transform -translate-x-1/2"
-        style={{ y: -1000 * 0.7 }}
-      >
-        <Image src="/images/new/rocket.png" alt="Rocket" width={100} height={200} />
-      </motion.div>
+            ref={ref}
+            initial={{ opacity: 0, y: 400 }}
+            animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 200 }}
+            transition={{ duration: 2 }}
+        >
+            {/* <div className="relative w-full h-[648px]"> */}
+            <Image src="/images/new/rocket.png" alt="Rocket" fill />
+            {/* </div> */}
+        </motion.div>
 
-      {/* محتوى الصفحة */}
-      <div className="h-[150vh]"></div>
-    </div>
-  );
+    </>);
 }
 

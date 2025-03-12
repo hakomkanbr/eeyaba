@@ -6,13 +6,14 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 import CustumerOpenionPost from './post';
+import RocketAnimation from '../rocket';
 
 
 
 const CustumerOpenionSection = () => {
   return (
-    <div className="mx-2 relative">
-      {/* <RocketAnimation /> */}
+    <div className="relative">
+      <RocketAnimation />
       <div className="bg-[url('/images/newpage/Asset_5.png')] bg-no-repeat bg-cover">
         <button
           className="mt-0 mb-5 w-[180px] flex justify-center items-center m-auto bg-yellowGold-500 
