@@ -6,6 +6,9 @@ import ProgramingSection from "./programing-setion";
 import CustumerOpenionSection from "./custumer-openion";
 import OurWorkSection from "./our-work-section";
 import Navbar from "@/components/navbar";
+import InformationEyyabaa from "./information-eyyabaa";
+import ContactEyyabaa from "./contact-eyyabaa";
+import Footer from "./footer-eyyabaa";
 
 const ParallaxScroll = () => {
   return (
@@ -26,6 +29,9 @@ const ParallaxScroll = () => {
       <section id="section4" className="section layer"><ProgramingSection /></section>
       <section id="section5" className="section layer"><CustumerOpenionSection /></section>
       <section id="section6" className="section layer"><OurWorkSection /></section>
+      <section id="section7" className="section layer"><InformationEyyabaa /></section>
+      <section id="section8" className="section layer"><ContactEyyabaa /></section>
+      <section id="section9" className="section layer"><Footer /></section>
       {/* <CustumerOpenionSection />
       <OurWorkSection />
       <InformationEyyabaa />
