@@ -62,5 +62,46 @@ function toggleStickyBehavior() {
   currentPos = window.scrollY;
 }
 
+function www() {
+
+
+  const layers = document.querySelectorAll(".layer");
+  const fixedLayer = document.querySelector(".fixed"); // العنصر الثابت
+  let currentIndex = 0;
+  let isScrolling = false;
+
+  // دالة للانتقال إلى العنصر المحدد
+  function scrollToLayer(index) {
+    if (index < 0 || index >= layers.length) return;
+
+    isScrolling = true;
+    const offset = layers[index].offsetTop - fixedLayer.offsetHeight; // احتساب المسافة مع العنصر الثابت
+    window.scrollTo({ top: offset, behavior: "smooth" });
+
+    setTimeout(() => {
+      currentIndex = index;
+      isScrolling = false;
+    }, 600); // مدة التأثير
+  }
+
+  // التعامل مع التمرير
+  function handleScroll(event) {
+    if (isScrolling) return;
+
+    if (event.deltaY > 0) {
+      // التمرير للأسفل
+      scrollToLayer(currentIndex + 1);
+    } else if (event.deltaY < 0) {
+      // التمرير للأعلى
+      scrollToLayer(currentIndex - 1);
+    }
+  }
+
+  // إضافة حدث التمرير بالماوس
+  window.addEventListener("wheel", handleScroll);
+
+}
+
 window.addEventListener("scroll", toggleStickyBehavior);
 toggleStickyBehavior();
+www();

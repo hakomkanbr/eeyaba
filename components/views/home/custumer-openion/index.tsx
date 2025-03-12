@@ -12,8 +12,8 @@ import { Autoplay } from 'swiper/modules';
 
 const CustumerOpenionSection = () => {
   return (
-    <div className="mx-2 mt-32 relative h-[80vh]">
-      <RocketSection />
+    <div className="mx-2 mt-32 relative">
+      {/* <RocketSection /> */}
       <section className="absolute right-0 left-0 bottom-40 bg-[url('/images/newpage/Asset_5.png')] bg-no-repeat bg-cover">
         <button
           className="mt-0 mb-5 w-[180px] flex justify-center items-center m-auto bg-yellowGold-500 
