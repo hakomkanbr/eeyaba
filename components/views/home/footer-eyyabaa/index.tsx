@@ -8,7 +8,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="text-white ">
+    <footer className="text-white overflow-hidden">
       <section className="relative bg-[url('/images/newpage/Asset_7.png')] bg-no-repeat bg-cover flex flex-col justify-center items-center">
         <div className="px-4 container mx-auto text-center pt-20">
           {/* الأقسام الرئيسية */}
@@ -62,7 +62,7 @@ export default function Footer() {
               <ul className="space-y-2 text-left">
                 <li>Social media</li>
                 <li>Fill the form</li>
-                <li>Testimonials</li>
+                <li>Testi</li>
                 <li>Company Insights</li>
                 <li>High Products</li>
               </ul>

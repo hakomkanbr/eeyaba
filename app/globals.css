@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer utilities {
     .font-asmaa {
         font-family: "AsmaaFont", sans-serif;
@@ -35,12 +36,59 @@ body {
     0% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(10px);
     }
+
     100% {
         transform: translateY(0);
     }
+}
+
+
+.wrapper {
+    position: relative;
+    width: 100vw;
+    padding-top: 1px;
+    padding-bottom: calc(20vh - 24px);
+}
+
+.section {
+    position: relative;
+    width: 100vw;
+    /* width: calc(100vw - 48px); */
+    margin: 0 auto;
+    height: 80vh;
+    background-color: #1e1e1d;
+}
+
+#section1 {
+    z-index: 0;
+}
+
+#section2 {
+    z-index: 1;
+}
+
+#section3 {
+    z-index: 2;
+}
+
+#section4 {
+    z-index: 3;
+}
+
+#section5 {
+    z-index: 4;
+}
+
+#section6 {
+    z-index: 5;
+}
+
+.fixed {
+    position: fixed;
 }
 
 .animate-up-down {
