@@ -25,12 +25,12 @@ const ParallaxScroll = () => {
         <SecoudSection />
       </section>
       <section id="section2" className="section layer"><MediaSection /></section>
-      <section id="section3" className="section layer flex items-center"><PrintSection /></section>
-      <section id="section4" className="section layer flex items-center"><ProgramingSection /></section>
-      <section id="section5" className="section layer flex flex-col justify-center"><CustumerOpenionSection /></section>
-      <section id="section6" className="section layer flex items-center"><OurWorkSection /></section>
-      <section id="section7" className="section layer flex items-center"><InformationEyyabaa /></section>
-      <section id="section8" className="section layer flex items-center"><ContactEyyabaa /></section>
+      <section id="section3" className="section layer flex justify-center items-center"><PrintSection /></section>
+      <section id="section4" className="section layer flex justify-center items-center"><ProgramingSection /></section>
+      <section id="section5" className="section layer flex flex-col justify-end"><CustumerOpenionSection /></section>
+      <section id="section6" className="section layer flex flex-col justify-center items-center"><OurWorkSection /></section>
+      <section id="section7" className="section layer flex flex-col items-center"><InformationEyyabaa /></section>
+      <section id="section8" className="section layer flex flex-col items-center"><ContactEyyabaa /></section>
       <section id="section9" className="section layer flex items-end"><Footer /></section>
       {/* <CustumerOpenionSection />
       <OurWorkSection />

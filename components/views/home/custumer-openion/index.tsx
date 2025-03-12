@@ -12,7 +12,7 @@ import RocketAnimation from '../rocket';
 
 const CustumerOpenionSection = () => {
   return (
-    <div className="relative">
+    <div className="relative mb-10">
       <RocketAnimation />
       <div className="bg-[url('/images/newpage/Asset_5.png')] bg-no-repeat bg-cover">
         <button

@@ -14,13 +14,6 @@ const ProgramingSection = () => {
       </div>
 
       <div className=" inset-0 block sm:hidden z-20">
-        <Image
-          src="/images/new/Asset_5.png"
-          alt="background"
-          className="absolute top-[300px] left-12"
-          width={350}
-          height={300}
-        />
 
         <Image
           src="/images/newpage/Asset_3.png"
