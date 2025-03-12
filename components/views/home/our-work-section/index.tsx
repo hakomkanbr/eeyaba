@@ -18,12 +18,12 @@ const colors = ["#fff","#13a0cb","#f7c518"];
 
 const OurWorkSection = () => {
   return (
-    <div className="relative my-12">
+    <div className="relative">
       <section className="relative bg-[url('/images/newpage/Asset_5.png')] bg-no-repeat bg-cover">
         <div className="flex flex-col items-center justify-center">
           <div className="text-center mt-6 mb-6">
             <button
-              className="w-[180px] border-white border-spacing-3 border-4 m-auto bg-[#13a0cb] text-sm
+              className="w-[180px] border-white mb-3 border-spacing-3 border-4 m-auto bg-[#13a0cb] text-sm
               font-asmaa px-4 py-1 text-white
               rounded-3xl shadow-lg 
               transform transition duration-300 ease-in-out
@@ -33,7 +33,7 @@ const OurWorkSection = () => {
             </button>
           </div>
 
-          <div className="grid grid-cols-6 md:grid-cols-8 gap-3 px-3">
+          <div className="grid grid-cols-4 md:grid-cols-8 gap-1 px-2">
             {[
               // First Line
               { Icon: icon6, label: "قسم أعمال الإعلانات"},
@@ -57,7 +57,7 @@ const OurWorkSection = () => {
               const top = t ? "relative -top-2" : "";
               console.info("color0 => " , color0);
               return (
-                <div key={index} className={`flex flex-col justify-center items-center text-white ${top}`}>
+                <div key={index} className={`flex flex-col justify-center items-center text-white ${top} mb-4`}>
                   <div style={{
                     backgroundColor : color0
                   }} className={twMerge(`flex items-center justify-center w-[55px] h-[55px] rounded-full`)}>
