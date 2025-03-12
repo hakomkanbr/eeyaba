@@ -1,20 +1,19 @@
 "use client";;
+import {Swiper, SwiperSlide} from 'swiper/react';
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-
-import RocketSection from '../rocket';
-import CustumerOpenionPost from './post';
 import { Autoplay } from 'swiper/modules';
+import CustumerOpenionPost from './post';
+
 
 
 const CustumerOpenionSection = () => {
   return (
     <div className="mx-2 relative">
-      <RocketSection />
-      <section className="absolute right-0 left-0 bottom-40 bg-[url('/images/newpage/Asset_5.png')] bg-no-repeat bg-cover">
+      {/* <RocketAnimation /> */}
+      <div className="bg-[url('/images/newpage/Asset_5.png')] bg-no-repeat bg-cover">
         <button
           className="mt-0 mb-5 w-[180px] flex justify-center items-center m-auto bg-yellowGold-500 
           font-asmaa px-4 py-1 text-lg
@@ -39,7 +38,7 @@ const CustumerOpenionSection = () => {
           <SwiperSlide><CustumerOpenionPost /></SwiperSlide>
           <SwiperSlide><CustumerOpenionPost /></SwiperSlide>
         </Swiper>
-      </section>
+      </div>
     </div>
   );
 };
