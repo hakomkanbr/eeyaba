@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
         <Navbar categories={dDeCategories.data} socialMeida={dSocialMedia} />
         {children}
-        <CFooter categories={dDeCategories.data} socialMeida={dSocialMedia} />
+        <CFooter categories={dDeCategories.data} />
       </body>
     </html>
   );

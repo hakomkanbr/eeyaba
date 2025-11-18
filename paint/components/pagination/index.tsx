@@ -34,22 +34,24 @@ export function Pagination({ total = 0, c: defaultCurrentPage = 1, p: defaultPag
   };
 
   const renderItems = () => {
-    const items = [];
+    const items: JSX.Element[] = []; // <— أهم شيء هنا
     let index = 0;
+
     for (index; index < Math.ceil(total / p); index++) {
       items.push(
         <IconButton
-          style={{
-            borderRadius: '50%',
-          }}
+          key={index}
+          style={{ borderRadius: '50%' }}
           {...getItemProps(index + 1)}
         >
           {index + 1}
         </IconButton>
       );
     }
+
     return items;
   };
+
   if (Math.ceil(total) < 1) return '';
   if (total <= p) return '';
   return (
