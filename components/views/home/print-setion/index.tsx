@@ -3,7 +3,7 @@ import Image from "next/image";
 const PrintSection = () => {
   return (
     <div className="mt-0 relative ">
-      <section id="printSection" className="wave-bg relative wave-bg flex flex-col justify-center">
+      <section id="printSection" className="wave-bg relative flex flex-col justify-center">
         <div className="relative z-20 max-w-lg mx-auto px-4 py-2 flex flex-col items-center text-center">
           <h1 className="text-3xl mb-4 font-bold font-asmaa text-yellowGold-500 relative">
             إيابا للطباعة

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MediaSection = () => {
   return (
-    <section className="mt-4 relative ">
+    <section className="mt-2 relative ">
       <div className="block sm:hidden">
         <Image
           src="/images/home_page_5.svg"
@@ -11,7 +11,7 @@ const MediaSection = () => {
           height={300}
         />
       </div>
-      <div className="absolute inset-0 block sm:hidden  z-20 max-w-7xl mx-auto  py-2">
+      <div className="absolute inset-0 block sm:hidden mt-24  z-20 max-w-7xl mx-auto  py-2">
         <Image
           src="/images/circles.svg"
           alt="background"
